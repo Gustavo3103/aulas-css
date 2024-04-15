@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(70, 12, 70);
+}
+
+
+
+header h1,p {
+  color: white;
+}
+
+article p {
+  background-color: bisque;
+  color: black;
+  font-weight: bolder;
+}
+
+article h2 {
+    color: white
+}
+
+article p {
+    color: black;
+    font-weight: bolder;
+}
+
+

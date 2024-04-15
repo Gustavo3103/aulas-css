@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#pacoca{
+    background-color: purple;
+    font-size: 16;
+    color: aquamarine;
+    font-weight: bold;}
+
+p { 
+    color: yellow;
+    font-size: 10px;
+    background-color: yellowgreen;
+}

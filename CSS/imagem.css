@@ -1,0 +1,11 @@
+.pacoca {
+  padding: 5px;
+  border: 1px solid;
+  overflow: auto;
+  text-align: center;
+}
+
+.pacoca img {
+  float: left;
+  padding-right: 20px;
+}
