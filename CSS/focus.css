@@ -1,0 +1,8 @@
+input:focus {
+    color: white;
+    background-color: blue;
+}
+p a:link{
+    text-decoration: none;
+    color: rgb(0, 174, 255);
+}

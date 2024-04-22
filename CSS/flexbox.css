@@ -1,0 +1,48 @@
+.container {
+    border: 2px solid black;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(203, 162, 241);
+    font-size: 8rem;
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1 {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 0.4rem;
+    background-color: rgb(146, 247, 247);
+    text-align: center;
+    line-height: 6rem;
+    order: 2;
+    flex-grow: 0.3;
+}
+
+.box2 {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 0.4rem;
+    background-color: rgb(238, 84, 84);
+    text-align: center;
+    line-height: 6rem;
+    order: 1;
+    flex-grow: 0.3;
+}
+
+.box3 {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 0.4rem;
+    background-color: rgb(139, 248, 172);
+    text-align: center;
+    line-height: 6rem;
+    order: 3;
+}
