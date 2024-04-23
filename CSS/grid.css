@@ -1,19 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
-.container{
+.container {
     height: 100vh;
     background-color: rgb(233, 233, 233);
     display: grid;
     grid-template-columns: repeat(6, auto);
     grid-template-rows: repeat(7, auto);
-    grid-template-areas:    
-        "header header header header header header"  
-        "aside aside main main main main"  
-        "aside aside main main main main"  
+    grid-template-areas:
+        "header header header header header header"
+        "aside aside main main main main"
+        "aside aside main main main main"
         "article article article article section section"
         "article article article article section section"
         "footer footer footer footer footer footer"
         "footer footer footer footer footer footer";
-        gap: 7px;
+    gap: 7px;
 }
 
 
@@ -22,28 +26,61 @@
     background-color: rgb(108, 108, 255);
 }
 
-.b2{
+.b1:hover {
+    background-color: black;
+}
+
+
+
+.b2 {
     grid-area: aside;
     background-color: orange;
 }
 
-.b3{
+.b2:hover {
+    background-color: black;
+}
+
+
+
+.b3 {
     grid-area: main;
     background-color: gray;
 }
+
+.b3:hover {
+    background-color: black;
+}
+
+
 
 .b4 {
     grid-area: article;
     background-color: rgb(108, 108, 255);
 }
 
-.b5{
+.b4:hover {
+    background-color: black;
+}
+
+
+
+.b5 {
     grid-area: section;
     background-color: greenyellow;
 }
 
-.b6{
+.b5:hover {
+    background-color: black;
+}
+
+
+
+.b6 {
     grid-area: footer;
     background-color: gray;
 }
 
+.b6:hover {
+    background-color: black;
+}
